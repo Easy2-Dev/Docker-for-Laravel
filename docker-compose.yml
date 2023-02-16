@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7.41
+    container_name: app_db
+    ports: 
+        - "3306:3306"
+    environment:
+        MYSQL_DATABASE: myDb
+        MYSQL_USER: user
+        MYSQL_PASSWORD: test
+        MYSQL_ROOT_PASSWORD: test
+    volumes:
+        - ./volumes/mysql:/var/lib/mysql
+    user: "1000:1000"
+
+  db_manager:
+    image: phpmyadmin/phpmyadmin
+    container_name: db_manager
+    links: 
+        - db
+    ports:
+        - 8001:80
+    environment:
+        MYSQL_USER: user
+        MYSQL_PASSWORD: test
+        MYSQL_ROOT_PASSWORD: test
+
+  app:
+    build: .
+    image: $APP_IMAGE
+    container_name: app
+    volumes:
+      - $APP_VOLUMES_SRC:/var/www/html
+  
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx
+    ports:
+      - "9000:80"
+    volumes:
+      - $APP_VOLUMES_SRC:/var/www/html
+      - $SERVER_SRC:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app

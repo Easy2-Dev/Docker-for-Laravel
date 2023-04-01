@@ -38,7 +38,7 @@ This solution enables the streamlined creation of Laravel projects without any a
 
     ## $\mathcal{\color{teal} \text{\Large{else}} }$ :
       \# Modification of the two directory paths depicted below in the `.env` file is required.
-      https://github.com/Easy2-Dev/Docker-for-Laravel/blob/376d367eef01d574b4f4ca62a47f1e93158baf74/temp.env#L3-L4
+      https://github.com/Easy2-Dev/Docker-for-Laravel/blob/1d1a4c3f1ce4b968bcf8ddfde6c538bc6b406ffe/temp.env#L3-L4
       
       The two paths presented here necessitate that you indicate the path to your project instead.
       
@@ -55,7 +55,7 @@ This solution enables the streamlined creation of Laravel projects without any a
 ##  🔖 ENV Explanation
 
 ### .env
-   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/0d34455fd4a94a40c2d1a16b5ac025b04bec3a9a/temp.env#L1-L12
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/1d1a4c3f1ce4b968bcf8ddfde6c538bc6b406ffe/temp.env#L1-L12
    
   <table>
      <thead>
@@ -97,7 +97,7 @@ This solution enables the streamlined creation of Laravel projects without any a
   
   
   ### app.env
-   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/34afb556d2b45b264ae71840c5f3a8aa5b9404d6/envs/temp.app.env#L1-L58
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/1d1a4c3f1ce4b968bcf8ddfde6c538bc6b406ffe/envs/temp.app.env#L11-L16
    
   <table>
      <thead>
@@ -136,7 +136,7 @@ This solution enables the streamlined creation of Laravel projects without any a
   
   
   ### mysql.env
-   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/34afb556d2b45b264ae71840c5f3a8aa5b9404d6/envs/temp.mysql.env#L1-L2
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/1d1a4c3f1ce4b968bcf8ddfde6c538bc6b406ffe/envs/temp.mysql.env#L1-L2
    
   <table>
      <thead>

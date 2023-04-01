@@ -34,8 +34,38 @@ This solution enables the streamlined creation of Laravel projects without any a
     ## $\mathcal{\color{teal} \text{\Large{if}} }$ **cloned directory** :
       \# Simply execute the make app command. 
 
-        make app
+        make app && make up
 
     ## $\mathcal{\color{teal} \text{\Large{else}} }$ :
       \# Modification of the two directory paths depicted below in the `.env` file is required.
       https://github.com/Easy2-Dev/Docker-for-Laravel/blob/376d367eef01d574b4f4ca62a47f1e93158baf74/temp.env#L3-L4
+      
+      The two paths presented here necessitate that you indicate the path to your project instead.
+      
+      ```shell
+      APP_VOLUMES_SRC= <your project path>/
+      STATIC_VOLUMES_PUBLIC= <your project path>/public/
+      ```
+    Once you have finished making the modification, you may execute the `make up` command.
+
+    ```
+    make up
+    ```
+      <table>
+   <thead>
+      <tr>
+         <th>Variable</th>
+         <th>Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>data1</td>
+         <td>data2</td>
+      </tr>
+      <tr>
+         <td>data11</td>
+         <td>data12</td>
+      </tr>
+   </tbody>
+</table>

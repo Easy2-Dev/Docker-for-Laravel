@@ -51,21 +51,108 @@ This solution enables the streamlined creation of Laravel projects without any a
     ```
     make up
     ```
-      <table>
-   <thead>
-      <tr>
-         <th>Variable</th>
-         <th>Description</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>data1</td>
-         <td>data2</td>
-      </tr>
-      <tr>
-         <td>data11</td>
-         <td>data12</td>
-      </tr>
-   </tbody>
-</table>
+
+##  🔖 ENV Explanation
+
+### .env
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/0d34455fd4a94a40c2d1a16b5ac025b04bec3a9a/temp.env#L1-L12
+   
+  <table>
+     <thead>
+        <tr>
+           <th>Variable</th>
+           <th>Description</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+           <td>data1</td>
+           <td>data2</td>
+        </tr>
+        <tr>
+           <td>data11</td>
+           <td>data12</td>
+        </tr>
+     </tbody>
+  </table>
+  
+  
+### adminer.env
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/34afb556d2b45b264ae71840c5f3a8aa5b9404d6/envs/temp.adminer.env#L1
+   
+  <table>
+     <thead>
+        <tr>
+           <th>Variable</th>
+           <th>Description</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+           <td>ADMINER_DEFAULT_SERVER</td>
+           <td>data2</td>
+        </tr>
+     </tbody>
+  </table>
+  
+  
+  ### app.env
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/34afb556d2b45b264ae71840c5f3a8aa5b9404d6/envs/temp.app.env#L1-L58
+   
+  <table>
+     <thead>
+        <tr>
+           <th>Variable</th>
+           <th>Description</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+           <td>DB_CONNECTION</td>
+           <td>data2</td>
+        </tr>
+        <tr>
+           <td>DB_HOST</td>
+           <td>data12</td>
+        </tr>
+        <tr>
+           <td>DB_PORT</td>
+           <td>data12</td>
+        </tr>
+        <tr>
+           <td>DB_DATABASE</td>
+           <td>data12</td>
+        </tr>
+        <tr>
+           <td>DB_USERNAME</td>
+           <td>data12</td>
+        </tr>
+        <tr>
+           <td>DB_PASSWORD</td>
+           <td>data12</td>
+        </tr>
+     </tbody>
+  </table>
+  
+  
+  ### mysql.env
+   https://github.com/Easy2-Dev/Docker-for-Laravel/blob/34afb556d2b45b264ae71840c5f3a8aa5b9404d6/envs/temp.mysql.env#L1-L2
+   
+  <table>
+     <thead>
+        <tr>
+           <th>Variable</th>
+           <th>Description</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+           <td>MYSQL_ROOT_PASSWORD</td>
+           <td>data2</td>
+        </tr>
+        <tr>
+           <td>MYSQL_DATABASE</td>
+           <td>data12</td>
+        </tr>
+     </tbody>
+  </table>

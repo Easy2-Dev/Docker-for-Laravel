@@ -4,7 +4,7 @@ This is a Docker-based environment configured for Laravel development.
 
 
 ## 🚀 Elaborating on the intended purpose
-This solution enables the streamlined creation of Laravel projects without any additional prerequisites. The only requirement is that Docker be installed on your machine.
+This solution enables the streamlined creation of Laravel projects without any additional prerequisites. The requirements are that Docker, Docker Compose, Git, and Make be installed on your machine.
 
 
 ### 🧩 Requirements 
@@ -66,11 +66,27 @@ This solution enables the streamlined creation of Laravel projects without any a
      </thead>
      <tbody>
         <tr>
-           <td>data1</td>
+           <td>APP_IMAGE</td>
            <td>data2</td>
         </tr>
         <tr>
-           <td>data11</td>
+           <td>APP_VOLUMES_SRC</td>
+           <td>data12</td>
+        </tr>
+        <tr>
+           <td>STATIC_VOLUMES_PUBLIC</td>
+           <td>data12</td>
+        </tr> 
+        <tr>
+           <td>MYSQL_PORT</td>
+           <td>data12</td>
+        </tr> 
+        <tr>
+           <td>NGINX_PORT</td>
+           <td>data12</td>
+        </tr> 
+        <tr>
+           <td>DB_MANAGER_PORT</td>
            <td>data12</td>
         </tr>
      </tbody>

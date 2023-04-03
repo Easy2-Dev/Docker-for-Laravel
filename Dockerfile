@@ -9,3 +9,6 @@ RUN mkdir /var/lib/mysql
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 RUN docker-php-ext-install pdo_mysql
+
+RUN apk add --update npm
+RUN apk add --update make

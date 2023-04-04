@@ -6,7 +6,7 @@ export UID
 export GID
 
 up-f:
-	docker compose up --build --remove-orphan
+	docker compose up --build --remove-orphans
 
 up:
 	[ -d ./volumes ] || mkdir -p volumes/mysql \
